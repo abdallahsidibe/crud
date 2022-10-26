@@ -1,0 +1,9 @@
+L’annotation @Autowired
+
+L’annotation @Autowired permet d’activer l’injection automatique de dépendance. 
+Contrairement au mode autowiring en XML, il n’est pas possible de définir une stratégie
+ à appliquer. Cette annotation peut être placée sur un constructeur, une méthode ou directement
+  sur un attribut. Le Spring Framework va chercher le bean du contexte d’application dont le type
+   est applicable à chaque paramètre du constructeur, aux paramètres de la méthode ou à l’attribut.
+    La stratégie est donc forcément byType.
+
